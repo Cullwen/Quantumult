@@ -1,8 +1,0 @@
-#https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/KuWoMusic/KuWoMusic.QuantumultX.snippet
-
-^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$ url script-request-header https://raw.githubusercontent.com/Cullwen/Quantumult-X/main/Script/Kuwomusic/I-am-R-E/Kuwoyyxz.js
-^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip) url script-response-body https://raw.githubusercontent.com/Cullwen/Quantumult-X/main/Script/Kuwomusic/I-am-R-E/Kuwoyy.js
-^http://vip1.kuwo.cn/vip/enc/user/vip.+$ url script-response-body https://raw.githubusercontent.com/Cullwen/Quantumult-X/main/Script/Kuwomusic/I-am-R-E/Kuwoyy.js
-^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver.+$ url script-response-body https://raw.githubusercontent.com/Cullwen/Quantumult-X/main/Script/Kuwomusic/I-am-R-E/Kuwoyyszzj.js
-
-hostname = *.kuwo.cn, *.lrts.me

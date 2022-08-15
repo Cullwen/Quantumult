@@ -1,4 +1,5 @@
 #https://raw.githubusercontent.com/I-am-R-E/Functional-Store-Hub/Master/KuWoMusic/KuWoMusic.QuantumultX.snippet
+#!desc=解锁酷我音乐会员、皮肤、听书、下载权限、可下载无损
 
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?.+$ url script-request-header https://raw.githubusercontent.com/Cullwen/Quantumult-X/main/Script/Kuwomusic/I-am-R-E/Kuwoyyxz.js
 ^http://(.+).(lrts|kuwo).(me|cn)(/v2/api/user/info|/a.p|/vip/v2/user/vip) url script-response-body https://raw.githubusercontent.com/Cullwen/Quantumult-X/main/Script/Kuwomusic/I-am-R-E/Kuwoyy.js

@@ -1,0 +1,7 @@
+#nameking77
+#22.8.16
+#!desc=SVIP完美版、解锁酷我音乐会员、皮肤、听书、下载权限、可下载无损
+
+^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* url script-response-body https://raw.githubusercontent.com/Cullwen/Quantumult-X/main/Script/Kuwomusic/nameking77/KuwoSVIP.js
+
+hostname = *.kuwo.cn, *.lrts.me

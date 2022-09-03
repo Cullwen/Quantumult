@@ -7,18 +7,12 @@
 ################################################################
 
 # ======= 哔哩哔哩 ======= #
-DOMAIN-SUFFIX,biliapi.net,PROXY
-DOMAIN-SUFFIX,biliapi.com,PROXY 
-DOMAIN,api.bilibili.com,PROXY 
-DOMAIN,api.bilibili.tv,PROXY 
-DOMAIN,app.bilibili.com,PROXY 
 DOMAIN,api.live.bilibili.com,PROXY 
 DOMAIN,api.vc.bilibili.com,PROXY 
 DOMAIN,passport.bilibili.com,PROXY 
 DOMAIN,live-trace.bilibili.com,PROXY 
 DOMAIN,message.bilibili.com,PROXY 
 DOMAIN,cm.bilibili.com,PROXY 
-DOMAIN-SUFFIX,bilibili.com,PROXY 
 DOMAIN-SUFFIX,im9.com,PROXY 
 DOMAIN-SUFFIX,acg.tv,PROXY 
 DOMAIN-SUFFIX,biligame.com,PROXY 

@@ -34,7 +34,6 @@ DOMAIN,www.baidu.com,PROXY
  
 # ======= 微信 ======= #
 DOMAIN,szshort.weixin.qq.com,PROXY
-DOMAIN,szextshort.weixin.qq.com,PROXY
 DOMAIN,szminorshort.weixin.qq.com,PROXY
 DOMAIN,mp.weixin.qq.com,PROXY 
 

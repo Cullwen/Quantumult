@@ -30,7 +30,6 @@ DOMAIN,tb5.bdstatic.com,PROXY
 DOMAIN,fclog.baidu.com,PROXY 
 DOMAIN,gsp0.baidu.com,PROXY
 DOMAIN,hm.baidu.com,PROXY 
-DOMAIN,www.baidu.com,PROXY
  
 # ======= 微信 ======= #
 DOMAIN,szshort.weixin.qq.com,PROXY

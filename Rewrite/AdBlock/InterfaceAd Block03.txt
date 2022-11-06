@@ -18,7 +18,6 @@ hostname =spclient.wg.spotify.com,*.iqiyipic.com, *.iqiyi.com,apiwz.midukanshu.c
 
 #书旗小说去广告
 ^http:\/\/ut2\.shuqistat\.com\/.+\.gif url reject
-^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/.+ url reject
 ^https?:\/\/sq\.sljkj\.com\/api\/sdk\/ads2 url reject
 ^https?:\/\/ocean\.shuqireader\.com\/api\/ad\/adserver\/.+ url reject
 ^https?:\/\/ocean\.shuqireader\.com\/api\/route\/iosReadPage\/ad.+ url reject

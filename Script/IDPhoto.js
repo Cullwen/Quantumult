@@ -30,10 +30,10 @@ var objc = JSON.parse($response.body);
 {
   "success" : true,
   "result" : {
-    "mobile" : "15988888888",
+    "mobile" : "Cullwen",
     "registerTime" : "2023-03-09 21:03:59",
     "vipExpireDays" : 7,
-    "nickname" : "U2303784141",
+    "nickname" : "Cullwen",
     "dataId" : "10167836703880764475",
     "vipGroupInfos" : [
       {

@@ -15,8 +15,7 @@ TG频道群：https://t.me/py996
 
 [rewrite_local]
 
-^https:\/\/standard\.rhinoxlab\.com\/standard\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/zjzXg.js
-
+^https:\/\/standard\.rhinoxlab\.com\/standard\/account\/getAccountInfo url script-response-body https://raw.githubusercontent.com/Cullwen/Quantumult/main/Script/IDPhoto.js
 [mitm] 
 
 hostname = standard.rhinoxlab.com

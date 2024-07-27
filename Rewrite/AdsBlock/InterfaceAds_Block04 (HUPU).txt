@@ -323,7 +323,6 @@
 ^https?:\/\/app\.api\.ke\.com\/config\/config\/bootpage url reject
 ^https?:\/\/app\.badmintoncn\.com\/mag\/operative\/v\d\/ad\/ url reject
 ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/list url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_plus.js
-^https?:\/\/app\.biliintl\.com\/(intl\/gateway\/v\d\/app\/data\/report\/heartbeat\/mobile|x\/(history|reply)/v\d/add) url script-request-body https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js
 ^https?:\/\/app\.ddpai\.com\/d\/api\/v\d\/config\/get\/bootscreen url reject
 ^https?:\/\/app\.dewu\.com\/api\/v\d\/app\/advertisement\/ url reject
 ^https?:\/\/app\.mixcapp\.com\/mixc\/api\/v\d\/ad url reject
@@ -683,7 +682,6 @@
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry url reject
 ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx url reject
 ^https?:\/\/paopao\w?.qiyipic.com url reject
-^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/(sms\/send|reg\/sms|oauth2\/access_token|login\/sms) url script-request-body https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Rewrite/bstar.js
 ^https?:\/\/pb\d\.pstatp\.com\/origin url reject-img
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
 ^https?:\/\/photocdn\.sohu\.com\/tvmobilemvms url reject-img

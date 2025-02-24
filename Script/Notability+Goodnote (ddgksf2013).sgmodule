@@ -1,0 +1,18 @@
+#!name=Notability+Goodnote
+#!desc=解锁 GoodNotes&Notability 内购会员 
+#!author=𝐝𝐝𝐠𝐤𝐬𝐟𝟐𝟎𝟏𝟑
+#!tgchannel=https://t.me/ddgksf2021
+#!moduleUrl=https://github.com/ddgksf2013/Modules/raw/main/Goodbility.Vip.sgmodule
+#!howtouse=小火箭、Surge用户直接添加模块，QuantumultX用户添加重写时打开解析器
+
+
+[Script]
+# > Notability+Goodnote@ddgksf2013
+Goodnote = type=http-response, pattern=^https:\/\/isi\.csan.[a-z.]+\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/Cullwen/Quantumult/refs/heads/main/Script/Goodnotes%20(ddgksf2013).js, requires-body=true, max-size=-1, timeout=60
+
+DeleteHeader = type=http-request,  pattern=^https:\/\/isi\.csan.[a-z.]+\/.+\/(receipts|subscribers), script-path=https://raw.githubusercontent.com/Cullwen/Quantumult/refs/heads/main/Script/Goodnotes%20(ddgksf2013_%20deleteHeader).js, timeout=60
+
+Notability = type=http-response, pattern=^https?:\/\/notability\.com\/global, script-path=https://raw.githubusercontent.com/Cullwen/Quantumult/refs/heads/main/Script/Notability%20(ddgksf2013).js, requires-body=true, max-size=-1, timeout=60
+
+[mitm]
+hostname=%APPEND% isi.csan.*, notability.com

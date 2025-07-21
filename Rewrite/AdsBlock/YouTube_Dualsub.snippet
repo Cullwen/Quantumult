@@ -1,0 +1,8 @@
+# Youtube Subtrans
+# Youtube subtitles add-ons
+# https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/snippet/YouTube-Dualsub.snippet
+
+hostname = *.youtube.com
+
+https:\/\/www.youtube.com\/api\/timedtext.+ url script-response-body https://raw.githubusercontent.com/Cullwen/Quantumult/refs/heads/main/Script/Youtube_Dualsub%20(Shortcuts).js
+https:\/\/setting.youtube.com\/\?action=(g|s)et url script-analyze-echo-response https://raw.githubusercontent.com/Cullwen/Quantumult/refs/heads/main/Script/Youtube_Dualsub%20(Shortcuts).js
